@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4754E2265861F1B52F3BE382 /* libPods-YAXDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 302E7CA140F6F8DEE2DC1919 /* libPods-YAXDemoTests.a */; };
+		9E07A784FC0CD518010041EF /* libPods-YAXDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E7EABE2C7B44778A39AD696F /* libPods-YAXDemo.a */; };
 		DB2CB0292224D67F00C23609 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2CB0282224D67F00C23609 /* AppDelegate.m */; };
 		DB2CB02C2224D67F00C23609 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2CB02B2224D67F00C23609 /* ViewController.m */; };
 		DB2CB02F2224D67F00C23609 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB2CB02D2224D67F00C23609 /* Main.storyboard */; };
@@ -15,6 +17,7 @@
 		DB2CB0372224D68200C23609 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2CB0362224D68200C23609 /* main.m */; };
 		DB2CB0412224D68200C23609 /* YAXDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2CB0402224D68200C23609 /* YAXDemoTests.m */; };
 		DB2CB04C2224D68200C23609 /* YAXDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2CB04B2224D68200C23609 /* YAXDemoUITests.m */; };
+		EAEB4CA206A14B6FC1C0F538 /* libPods-YAXDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A4C05E728EEE615BAB18B61 /* libPods-YAXDemoUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C22E10F97307D439F744C22 /* Pods-YAXDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YAXDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YAXDemoTests/Pods-YAXDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		302E7CA140F6F8DEE2DC1919 /* libPods-YAXDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YAXDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4764B0231D3EC76950AD25CD /* Pods-YAXDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YAXDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YAXDemo/Pods-YAXDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		5B9C9506D0057FCC0881469E /* Pods-YAXDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YAXDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-YAXDemo/Pods-YAXDemo.release.xcconfig"; sourceTree = "<group>"; };
+		781BDEB42FAADEC9E483DA1D /* Pods-YAXDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YAXDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YAXDemoTests/Pods-YAXDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		872B19FF4DB58F05E838D1C6 /* Pods-YAXDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YAXDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YAXDemoUITests/Pods-YAXDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8A4C05E728EEE615BAB18B61 /* libPods-YAXDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YAXDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9EF9BA40EBAC0CFE07BB1EF /* Pods-YAXDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YAXDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YAXDemoUITests/Pods-YAXDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		DB2CB0242224D67F00C23609 /* YAXDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YAXDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB2CB0272224D67F00C23609 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DB2CB0282224D67F00C23609 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +62,7 @@
 		DB2CB0472224D68200C23609 /* YAXDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YAXDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB2CB04B2224D68200C23609 /* YAXDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YAXDemoUITests.m; sourceTree = "<group>"; };
 		DB2CB04D2224D68200C23609 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7EABE2C7B44778A39AD696F /* libPods-YAXDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YAXDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E07A784FC0CD518010041EF /* libPods-YAXDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4754E2265861F1B52F3BE382 /* libPods-YAXDemoTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +86,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAEB4CA206A14B6FC1C0F538 /* libPods-YAXDemoUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		59F8181FF5B33C15535299E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E7EABE2C7B44778A39AD696F /* libPods-YAXDemo.a */,
+				302E7CA140F6F8DEE2DC1919 /* libPods-YAXDemoTests.a */,
+				8A4C05E728EEE615BAB18B61 /* libPods-YAXDemoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		94AC71209F267EAB0944D0A5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4764B0231D3EC76950AD25CD /* Pods-YAXDemo.debug.xcconfig */,
+				5B9C9506D0057FCC0881469E /* Pods-YAXDemo.release.xcconfig */,
+				1C22E10F97307D439F744C22 /* Pods-YAXDemoTests.debug.xcconfig */,
+				781BDEB42FAADEC9E483DA1D /* Pods-YAXDemoTests.release.xcconfig */,
+				A9EF9BA40EBAC0CFE07BB1EF /* Pods-YAXDemoUITests.debug.xcconfig */,
+				872B19FF4DB58F05E838D1C6 /* Pods-YAXDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		DB2CB01B2224D67F00C23609 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +123,8 @@
 				DB2CB03F2224D68200C23609 /* YAXDemoTests */,
 				DB2CB04A2224D68200C23609 /* YAXDemoUITests */,
 				DB2CB0252224D67F00C23609 /* Products */,
+				94AC71209F267EAB0944D0A5 /* Pods */,
+				59F8181FF5B33C15535299E8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -139,6 +179,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DB2CB0502224D68200C23609 /* Build configuration list for PBXNativeTarget "YAXDemo" */;
 			buildPhases = (
+				87DB4760BE539DA2B43E6437 /* [CP] Check Pods Manifest.lock */,
 				DB2CB0202224D67F00C23609 /* Sources */,
 				DB2CB0212224D67F00C23609 /* Frameworks */,
 				DB2CB0222224D67F00C23609 /* Resources */,
@@ -156,6 +197,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DB2CB0532224D68200C23609 /* Build configuration list for PBXNativeTarget "YAXDemoTests" */;
 			buildPhases = (
+				CB577135A692638F49FF923E /* [CP] Check Pods Manifest.lock */,
 				DB2CB0382224D68200C23609 /* Sources */,
 				DB2CB0392224D68200C23609 /* Frameworks */,
 				DB2CB03A2224D68200C23609 /* Resources */,
@@ -174,6 +216,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DB2CB0562224D68200C23609 /* Build configuration list for PBXNativeTarget "YAXDemoUITests" */;
 			buildPhases = (
+				F3F949CB96EE7CD4497B8E46 /* [CP] Check Pods Manifest.lock */,
 				DB2CB0432224D68200C23609 /* Sources */,
 				DB2CB0442224D68200C23609 /* Frameworks */,
 				DB2CB0452224D68200C23609 /* Resources */,
@@ -256,6 +299,63 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		87DB4760BE539DA2B43E6437 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YAXDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB577135A692638F49FF923E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YAXDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3F949CB96EE7CD4497B8E46 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YAXDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DB2CB0202224D67F00C23609 /* Sources */ = {
@@ -431,14 +531,12 @@
 		};
 		DB2CB0512224D68200C23609 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4764B0231D3EC76950AD25CD /* Pods-YAXDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = YAXDemo/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yangaixin.YAXDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -447,14 +545,12 @@
 		};
 		DB2CB0522224D68200C23609 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B9C9506D0057FCC0881469E /* Pods-YAXDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = YAXDemo/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yangaixin.YAXDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -463,15 +559,12 @@
 		};
 		DB2CB0542224D68200C23609 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C22E10F97307D439F744C22 /* Pods-YAXDemoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = YAXDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yangaixin.YAXDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -481,15 +574,12 @@
 		};
 		DB2CB0552224D68200C23609 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 781BDEB42FAADEC9E483DA1D /* Pods-YAXDemoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = YAXDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yangaixin.YAXDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -499,14 +589,11 @@
 		};
 		DB2CB0572224D68200C23609 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9EF9BA40EBAC0CFE07BB1EF /* Pods-YAXDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = YAXDemoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yangaixin.YAXDemoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -516,14 +603,11 @@
 		};
 		DB2CB0582224D68200C23609 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 872B19FF4DB58F05E838D1C6 /* Pods-YAXDemoUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = YAXDemoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yangaixin.YAXDemoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
